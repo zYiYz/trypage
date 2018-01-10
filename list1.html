@@ -15,38 +15,40 @@ git@github.com:zYiYz/trypage.git
 
 <!--
 
-pwd ²é¿´ÎÄ¼şËùÔÚÎ»ÖÃ
-git init filename Éú³ÉÁËÒ»¸öfilenameÎÄ¼şÀïÃæ²¢Éú³ÉÁËÒ»¸ö .git Ä¿Â¼
-git status -s ²é¿´×´Ì¬
-git clone <repo> <directory>  repo:Git ²Ö¿â¡£ directory:±¾µØÄ¿Â¼¡£
-git branch ²é¿´·ÖÖ§
-git branch testing Ìí¼ÓĞÂµÄÒ»¸ö·ÖÖ§Ãû×Ö½Ğ×Åtesting
-git checkout testing ÇĞ»»µ½testing·ÖÖ§
-git branch -D testing É¾³ı±¾µØtesting·ÖÖ§
-git push newxx :testing  É¾³ıÔ¶³Ìtesting·ÖÖ§
-git checkout -b testing ÃüÁîÀ´´´½¨ĞÂ·ÖÖ§²¢Á¢¼´ÇĞ»»µ½testing·ÖÖ§ÏÂ
+è¿™è¿™é‡Œä¸ä¸€æ ·çš„
 
+pwd æŸ¥çœ‹æ–‡ä»¶æ‰€åœ¨ä½ç½®
+git init filename ç”Ÿæˆäº†ä¸€ä¸ªfilenameæ–‡ä»¶é‡Œé¢å¹¶ç”Ÿæˆäº†ä¸€ä¸ª .git ç›®å½•
+git status -s æŸ¥çœ‹çŠ¶æ€
+git clone <repo> <directory>  repo:Git ä»“åº“ã€‚ directory:æœ¬åœ°ç›®å½•ã€‚
+git branch æŸ¥çœ‹åˆ†æ”¯
+git branch testing æ·»åŠ æ–°çš„ä¸€ä¸ªåˆ†æ”¯åå­—å«ç€testing
+git checkout testing åˆ‡æ¢åˆ°testingåˆ†æ”¯
+git branch -D testing åˆ é™¤æœ¬åœ°testingåˆ†æ”¯
+git push newxx :testing  åˆ é™¤è¿œç¨‹testingåˆ†æ”¯
+git checkout -b testing å‘½ä»¤æ¥åˆ›å»ºæ–°åˆ†æ”¯å¹¶ç«‹å³åˆ‡æ¢åˆ°testingåˆ†æ”¯ä¸‹
 
-git remote add xx git@github.com:zYiYz/trypage.git  Ìí¼ÓÒ»¸ö±ê¼Ç£¬Óë¿âÏà¶ÔÓÚ
-git remote  ²é¿´±ê¼Ç£¬±ØĞëÔÚµ±Ç°Ä¿Â¼ÏÂ²é¿´
+è¿™è¿™é‡Œä¸ä¸€æ ·çš„
+git remote add xx git@github.com:zYiYz/trypage.git  æ·»åŠ ä¸€ä¸ªæ ‡è®°ï¼Œä¸åº“ç›¸å¯¹äº
+git remote  æŸ¥çœ‹æ ‡è®°ï¼Œå¿…é¡»åœ¨å½“å‰ç›®å½•ä¸‹æŸ¥çœ‹
 
+è¿™è¿™é‡Œä¸ä¸€æ ·çš„
+git clone git://github.com/schacon/grit.git å…‹éš† Ruby
+cat ~/.gitconfig  æ‰“å¼€é…ç½®æ–‡ä»¶
+git config --global user.name "git"  ä¿®æ”¹é…ç½®ä¸ºä½ çš„nameä¸ºgit
+cat .git/config æŸ¥çœ‹å½“å‰ç›®å½•ä¸­çš„é…ç½®
+touch xx.txt  åˆ›å»ºä¸€ä¸ªä¸ºxx.txtçš„æ–‡ä»¶
+git add xx.txt  æ·»åŠ xx.txtæ–‡ä»¶
+git commit -m "xx" æäº¤xx.txtæ–‡ä»¶ï¼Œå¹¶å¤‡æ³¨è¿™ä¸ªæ–‡ä»¶ä¸ºxx
+git push origin master  æŠŠæ–‡ä»¶PUSHåˆ°åº“ä¸­ï¼ˆæŠŠmasteråˆ†æ”¯pushåˆ°æœåŠ¡å™¨ä¸Šé¢originçš„åˆ†æ”¯ï¼‰
+è¿™è¿™é‡Œä¸ä¸€æ ·çš„
 
-git clone git://github.com/schacon/grit.git ¿ËÂ¡ Ruby
-cat ~/.gitconfig  ´ò¿ªÅäÖÃÎÄ¼ş
-git config --global user.name "git"  ĞŞ¸ÄÅäÖÃÎªÄãµÄnameÎªgit
-cat .git/config ²é¿´µ±Ç°Ä¿Â¼ÖĞµÄÅäÖÃ
-touch xx.txt  ´´½¨Ò»¸öÎªxx.txtµÄÎÄ¼ş
-git add xx.txt  Ìí¼Óxx.txtÎÄ¼ş
-git commit -m "xx" Ìá½»xx.txtÎÄ¼ş£¬²¢±¸×¢Õâ¸öÎÄ¼şÎªxx
-git push origin master  °ÑÎÄ¼şPUSHµ½¿âÖĞ£¨°Ñmaster·ÖÖ§pushµ½·şÎñÆ÷ÉÏÃæoriginµÄ·ÖÖ§£©
+ ssh-keygen -t rsa -C "ozivizo@163.com"  ç”ŸæˆSSH Key ozivizo@163.comè‡ªå·±åœ¨gitä¸­çš„è´¦å· è¿™ä¸ªå¾—åœ¨è·Ÿç›®å½•ä¸­å»ç”Ÿæˆä¸€ä¸ª.sshæ–‡ä»¶
+ cd ~  è¿›å…¥ç”¨æˆ·åœ¨è¯¥ç³»ç»Ÿçš„homeç›®å½•
+ rm -rf .ssh  åˆ é™¤.sshæ–‡ä»¶
+ cat id_rsa.pub   æŸ¥çœ‹SSH key
 
-
- ssh-keygen -t rsa -C "ozivizo@163.com"  Éú³ÉSSH Key ozivizo@163.com×Ô¼ºÔÚgitÖĞµÄÕËºÅ Õâ¸öµÃÔÚ¸úÄ¿Â¼ÖĞÈ¥Éú³ÉÒ»¸ö.sshÎÄ¼ş
- cd ~  ½øÈëÓÃ»§ÔÚ¸ÃÏµÍ³µÄhomeÄ¿Â¼
- rm -rf .ssh  É¾³ı.sshÎÄ¼ş
- cat id_rsa.pub   ²é¿´SSH key
-
-
+è¿™è¿™é‡Œä¸ä¸€æ ·çš„
 -->
 
 
